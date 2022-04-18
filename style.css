@@ -1,0 +1,436 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    
+}
+.body{
+    display: flexbox;
+    height: auto;
+    width: 100%;
+    background-color: #eee;
+}
+.logo{
+    display: flex;
+    width: 100%;
+    height: 10%;
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: #eee;
+}
+.log{
+    display: flexbox;
+    width: 15%;
+    
+}
+.input-group{
+    display: flexbox;
+    width: 40%;
+}
+.nav{
+    display: flexbox;
+    flex-direction: row;
+    width: 100%;
+    height: 10%;
+    background-color: white;
+}
+.g{
+    display: flexbox;
+    color: white;
+    font-size: 1.2em;
+    text-align: center;
+    width: 15%;
+    cursor: pointer;
+    background-color: #65a62d;
+}
+.nav-item{
+    margin-left: 10px;
+    border-right: 1px solid rgb(211, 208, 208);
+}
+.nav-item:hover{
+    background-color: rgb(226, 226, 226);
+}
+.list-group-item:hover{
+    background-color: rgb(226, 226, 226);
+    cursor: pointer;
+}
+.list-group-horizontal li{
+    border: none !important;
+}
+.contain{
+    display: flex;
+    flex-direction:row;
+    
+    width: 100%;
+    height: auto;
+    background-color: #eee;
+}
+.leftside{
+    display: flexbox;
+    width: 15%;
+    height: 550px;
+    background-color: transparent;
+    
+}
+.myapps{
+    display: flex;
+    box-shadow: 0px 1px 5px rgb(201, 200, 200);
+    height: 45%;
+    width: 100%;
+    background-color: rgb(238, 250, 238);
+}
+.moreoptions{
+    display: flexbox;
+    height: 100%;
+    width: 12%;
+    background-color: white;
+    text-align: center;
+    
+}
+.app{
+    display: flexbox;
+    height: 100%;
+    width: 85%;
+    background-color: transparent;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.app div{
+    display: flexbox;
+    padding-left: 20px;
+    padding-bottom:5px;
+    width: 100%;
+    height: 15%;
+}
+.app div:hover{
+    background-color: rgb(226, 226, 226);
+}
+.hr{
+    height: 8% !important;
+}
+.hr:hover{
+    background-color: transparent !important;
+}
+.mapp{
+    font-size: 1.2em;
+}
+.shop{
+    font-size: 1.2em;
+    color: #65a62d;
+}
+.account{
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0px 1px 5px rgb(201, 200, 200);
+    height: 55%;
+    width: 100%;
+    background-color: transparent;
+    padding-top: 10px;
+    
+}
+.account div{
+    display: flexbox;
+    padding-left: 20px;
+    padding-bottom:5px;
+    width: 100%;
+    height: 12%;
+}
+.account div:hover{
+    background-color: rgb(226, 226, 226);
+}
+.main{
+    display: flexbox;
+    width: 55%;
+    height: 2000px;
+    background-color: white;
+    margin: 40px  20px 0px 30px;
+    padding: 20px;
+    box-shadow: 1px 1px 5px rgb(156, 156, 156);
+}
+.fb{
+    display: flex;
+    height: 10%;
+    background-color: transparent;
+}
+.fbimg{
+    display: flexbox;
+    height: 100%;
+    width: 30%;
+    
+}
+.fbtext{
+    display: flexbox;
+    margin-left: 10px;
+    height: 100%;
+    width: 70%;
+    background-color: transparent;
+    line-height: 20px;
+    
+}
+.fbook{
+    font-size: 2em;
+    font-weight: 300;
+}
+.link a{
+    text-decoration: none;
+    color: #65a62d;
+    font-size: 0.8em;
+    font-weight: 600;
+}
+.link a:hover{
+    text-decoration: underline;
+    color: #65a62d;
+}
+.star{
+    float: right;
+    font-size: 0.7em;
+    color: rgb(102, 101, 101);
+}
+.teen{
+    
+    font-weight: 500;
+    color: rgb(102, 101, 101);
+}
+.offer{
+    font-weight: 500;
+    color: rgb(102, 101, 101);
+}
+.wishlist{
+    font-size: 0.9em;
+    font-weight: 500;
+    color: rgb(197, 196, 196);
+}
+.wishlist button{
+    border: none !important;
+    background-color: #65a62d !important;
+    float: right;
+}
+.wishlist button:hover{
+    background-color: #7cbb46 !important;
+}
+.images{
+    display: flexbox;
+    height: auto;
+    width: 93%;
+    margin-top: 30px;
+    margin-left: 20px;
+    margin-right: 20px;
+    background-color: transparent;
+    padding-bottom: 50px;
+}
+
+.r{
+    color: #65a62d !important;
+    margin-left: 300px;
+}
+.review{
+    display: flexbox;
+    background-color: transparent;
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+}
+.review-h span{
+    float: right;
+    font-size: 0.8em;
+}
+.review-h span a{
+    text-decoration: none;
+    color: rgb(27, 27, 27);
+}
+.rating{
+    display: flex;
+    width: 100%;
+}
+.ratenumber{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 30%;
+    
+    text-align: center;
+    background-color: transparent;
+}
+.rategraph{
+    display: flexbox;
+    background-color: transparent;
+    width: 60%;
+}
+
+.c1{
+    color: cornflowerblue;
+    margin-left: 10px;
+    display: inline-flex;
+    width: 90%;
+    background-color: cornflowerblue;
+}
+.c2{
+    margin-left: 10px;
+    display: inline-flex;
+    width: 90%;
+    background-color: transparent;
+}
+.c2 span{
+    color:#69d686 ;
+    width: 30%;
+    background-color: #69d686;
+}
+.c3{
+    margin-left: 10px;
+    display: inline-flex;
+    width: 90%;
+    background-color: transparent;
+}
+.c3 span{
+    color:#f1f731 ;
+    width: 20%;
+    background-color: #f1f731;
+}
+.c4{
+    margin-left: 10px;
+    display: inline-flex;
+    width: 90%;
+    background-color: transparent;
+}
+.c4 span{
+    color:#f7bf31 ;
+    width: 10%;
+    background-color: #f7bf31;
+}
+.c5{
+    color: #fc682d;
+    margin-left: 10px;
+    display: inline-flex;
+    width: 80%;
+    background-color: #fc682d;
+}
+.lgnbr{
+    font-size: 4em;
+    font-weight: lighter;
+}
+.comment{
+    display: flex;
+    width: 100%;
+    height: auto;
+    background-color: transparent;
+}
+.cimg{
+    display: flexbox;
+    width: 8%;
+    height: inherit;
+    background-color: transparent;
+}
+.cimg img{
+    width: 50px;
+    height: 50px;
+}
+.textcmt{
+    display: flexbox;
+    width: 92%;
+    height: auto;
+    background-color: transparent;
+}
+.pname{
+    font-weight: 600;
+}
+.pstar{
+    font-size: 0.8em;
+    color: gray;
+}
+.pstar span{
+    cursor: pointer;
+    float: right;
+    font-size: 1.5em !important;
+    letter-spacing: 10px;
+}
+.nav a{
+    text-decoration: none;
+    color: rgb(37, 37, 37);
+}
+.nav a:hover{
+    color: rgb(37, 37, 37);
+}
+.hs{
+    display: flexbox;
+    background-color: transparent;
+    padding-top: 10px;
+    margin-left: 550px;
+}
+.helpbt{
+    display: inline-block;
+    border-radius: 3px;
+    height: 75%;
+    width: 50px;
+    border: 1px solid gray;
+    text-align: center;
+}
+.helpbt:hover{
+    box-shadow: 0px 1px 0px gray;
+}
+.settingbt{
+    display: inline-block;
+    border-radius: 3px;
+    height: 75%;
+    width: 70px;
+    text-align: center;
+    border: 1px solid gray;
+}
+.settingbt:hover{
+    box-shadow: 0px 1px 0px gray;
+}
+.right{
+    display: flexbox;
+    width: 25%;
+    height: 2000px;
+    background-color: transparent;
+    margin: 80px  10px 0px 30px;
+}
+.similar span{
+    font-size: 1.5em;
+}
+.similar button{
+    border: none !important;
+    background-color: #65a62d !important;
+    float: right;
+}
+.similar button:hover{
+    background-color: #7cbb46 !important;
+}
+.messenger{
+    display: flex;
+    height: 200px;
+    margin-top: 10px;
+    padding: 10px;
+    background-color: white;
+    width: 100%;
+    box-shadow: 1px 1px 5px rgb(156, 156, 156);
+    font-weight: 300;
+}
+.appimg{
+    display: flexbox;
+    height: 100%;
+    width: 40%;
+    
+}
+.apptext{
+    display: flexbox;
+    background-color: transparent;
+    width: 60%;
+    line-height: 20px;
+}
+.cap{
+    font-size: 1.4em;
+}
+.aplink{
+    font-size: 0.9em;
+}
+.apstar{
+    color: rgb(53, 51, 51);
+    font-size: 0.7em;
+}
+.lite{
+    height: 150px;
+}
+.insta{
+    height: 120px;
+}
